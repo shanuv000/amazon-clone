@@ -6,17 +6,19 @@ function Home() {
     return (<div className='home'>
         <div className="home__container">
             <img className='home_image'
-                 src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Multititle/Feb/EN/1500x600_Hero-Tall_NP._CB661598783_.jpg"
+                 src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
                  alt=""/>
 
             <div className="home__row">
                 <Product id={89321}
                          title='Kids tablet with certified eye protection'
+
                          rating={3}
                          price={29.99}
                          image='https://images-eu.ssl-images-amazon.com/images/G/31/img20/Tablets/Flexible_Desktop_CatCard_1X._SY304_CB659869742_.jpg'/>
 
-                <Product title='McAfee Antivirus - 1 User, 3 Years (Email Delivery in 2 hours- No CD)'
+                <Product id={82910}
+                         title='McAfee Antivirus - 1 User, 3 Years (Email Delivery in 2 hours- No CD)'
                          rating={4}
                          price={699}
                          image='https://images-eu.ssl-images-amazon.com/images/I/41uCgiR4WbL._AC_SX184_.jpg'/>
