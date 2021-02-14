@@ -5,13 +5,14 @@ import {useStateValue} from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 
 const Checkout = () => {
-    const [{basket}, dispatch] = useStateValue();
+    const [{basket,user}, dispatch] = useStateValue();
     return (<div className='checkout'>
             <div className="checkout__left">
 
                 <img className='checkout__ad'
                      src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Events/Vday/FVOD/FVOD_400x39-SWM._CB659879429_.jpg"
                      alt=""/>
+                     <h3>Hello, {user?.email}</h3>
                 <div className="checkout__title">
                     <h2>Your Shopping Basket</h2>
 
