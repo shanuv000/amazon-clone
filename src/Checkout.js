@@ -6,6 +6,7 @@ import CheckoutProduct from "./CheckoutProduct";
 
 const Checkout = () => {
     const [{basket,user}, dispatch] = useStateValue();
+
     return (<div className='checkout'>
             <div className="checkout__left">
 
@@ -16,14 +17,16 @@ const Checkout = () => {
                 <div className="checkout__title">
                     <h2>Your Shopping Basket</h2>
 
-                    {basket.map(items => (<CheckoutProduct
-                            key = {items.id}
+                    {basket.map(items => (
+
+                        <CheckoutProduct
+                            key = {items.id=items.id+1}
                             id={items.id}
                             title={items.title}
                             image={items.image}
                             price={items.price}
                             rating={items.rating}/>
-                    ))}
+                      ))}
 
                 </div>
             </div>
