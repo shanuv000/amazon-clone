@@ -1,9 +1,13 @@
-#Home Page
+# Home Page
 ![Amazon Home](./src/amazon%20Images/home.png)
 
+# Cart
+![Amazon Cart](./src/amazon%20Images/cart.png)
 
+# Checkout
+![Amazon Checkout](./src/amazon%20Images/checkoutPayment.png)
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
