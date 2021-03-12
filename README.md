@@ -1,3 +1,8 @@
+#Home Page
+![Amazon Home](./src/amazon%20Images/home.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
