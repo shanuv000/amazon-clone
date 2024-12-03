@@ -1,4 +1,5 @@
 # [Amazon](https://challenge-31446.web.app/)
+![GitHub repo size](https://img.shields.io/github/repo-size/shanuv000/amazon-clone)
 
 <br>
 This is an E-Commerce website clone of Amazon. Designed and developed this web app using a React framework. It is a 
